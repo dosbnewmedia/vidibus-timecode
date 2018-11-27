@@ -3,11 +3,11 @@
 lib = File.expand_path("../lib/", __FILE__)
 $:.unshift lib unless $:.include?(lib)
 
-require "vidibus/timecode"
+require "vidibus/version"
 
 Gem::Specification.new do |s|
   s.name        = "vidibus-timecode"
-  s.version     = Vidibus::Timecode::VERSION
+  s.version     = Vidibus::Version::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = "Andre Pankratz"
   s.email       = "andre@vidibus.com"
